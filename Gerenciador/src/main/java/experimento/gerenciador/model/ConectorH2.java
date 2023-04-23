@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 public class ConectorH2 {
 
     public String namedatabase = "FluxoCaixa";
-    private String url = "jdbc:h2:C:/Users/leona/OneDrive/Área de Trabalho/Trabalhos/Contabilizador_Vendas/Gerenciador/src/main/java/experimento/gerenciador/database/FluxoCaixa";
+    private String url = "jdbc:h2:C:/Users/leona/OneDrive/Área de Trabalho/Trabalhos/Gerenciador_Fluxo_de_Caixa/Gerenciador/src/main/java/experimento/gerenciador/database/FluxoCaixa";
     private String user = "usuario";
     private String password = "";
 
