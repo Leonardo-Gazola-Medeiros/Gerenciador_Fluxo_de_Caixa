@@ -140,9 +140,9 @@
                     <columns>
                       <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
                       <TableColumn fx:id="produto" prefWidth="403.0" text="Produto" />
-                       <TableColumn fx:id="valor" prefWidth="134.0" text="Valor" />
-                       <TableColumn fx:id="tipo" prefWidth="134.0" text="tipo" />
-                       <TableColumn fx:id="data" prefWidth="134.0" text="data" />
+                       <TableColumn fx:id="valor" prefWidth="100.0" text="Valor" />
+                       <TableColumn fx:id="tipo" prefWidth="80.0" text="tipo" />
+                       <TableColumn fx:id="data" prefWidth="70.0" text="data" />
                        <TableColumn fx:id="segundaParte" prefWidth="134.0" text="segundaParte" />
                        <TableColumn fx:id="cnpjSegundaParte" prefWidth="134.0" text="cnpjSegundaParte" />
                        <TableColumn fx:id="notaFiscal" prefWidth="134.0" text="notaFiscal" />
