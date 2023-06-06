@@ -40,5 +40,11 @@ public class ComprasController {
         new MudarCenario(layoutCompras, "view/registros.fxml");
     }
 
+    @FXML
+    void salvarCompra(){
+
+
+    }
+
 
 }

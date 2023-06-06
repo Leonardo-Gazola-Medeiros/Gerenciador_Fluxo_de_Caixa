@@ -54,7 +54,7 @@
                               <DropShadow />
                            </effect>
                         </Button>
-                        <Button fx:id="BotaoRegistros" layoutX="65.0" layoutY="460.0" mnemonicParsing="false" onAction="#entrarRegistros" prefHeight="78.0" prefWidth="297.0" text="Registros">
+                        <Button fx:id="BotaoRegistros" layoutX="72.0" layoutY="465.0" mnemonicParsing="false" onAction="#entrarRegistros" prefHeight="78.0" prefWidth="297.0" text="Registros">
                            <effect>
                               <DropShadow />
                            </effect>
@@ -89,12 +89,12 @@
                   <DropShadow />
                </effect>
                <children>
-                  <Button fx:id="adicionarCompra" layoutX="360.0" layoutY="658.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="125.0" text="Adicionar Compra">
+                  <Button id="Adicionar_Compra" fx:id="adicionarCompra" layoutX="360.0" layoutY="658.0" mnemonicParsing="false" onAction="#salvarCompra" prefHeight="37.0" prefWidth="125.0" text="Adicionar Compra">
                      <effect>
                         <DropShadow />
                      </effect>
                   </Button>
-                  <TextField fx:id="nomeProduto" layoutX="178.0" layoutY="147.0" prefHeight="25.0" prefWidth="586.0" />
+                  <TextField id="Nome_Produto_Compra" fx:id="nomeProduto_Compra" layoutX="178.0" layoutY="147.0" prefHeight="25.0" prefWidth="586.0" />
                   <Label layoutX="97.0" layoutY="146.0" prefHeight="25.0" prefWidth="81.0" text="Produto :">
                      <font>
                         <Font size="19.0" />
@@ -105,37 +105,37 @@
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <DatePicker fx:id="dataProduto" layoutX="97.0" layoutY="259.0" />
+                  <DatePicker id="Data_Compra" fx:id="dataProduto_Compra" layoutX="97.0" layoutY="259.0" />
                   <Label layoutX="368.0" layoutY="223.0" prefHeight="28.0" prefWidth="54.0" text="Valor">
                      <font>
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="valorProduto" layoutX="368.0" layoutY="259.0" prefHeight="25.0" prefWidth="118.0" />
+                  <TextField id="Valor_Compra" fx:id="valorProduto_Compra" layoutX="368.0" layoutY="259.0" prefHeight="25.0" prefWidth="118.0" />
                   <Label layoutX="97.0" layoutY="326.0" prefHeight="28.0" prefWidth="100.0" text="Fornecedor">
                      <font>
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="FornecedorProduto" layoutX="97.0" layoutY="354.0" prefHeight="25.0" prefWidth="389.0" />
+                  <TextField id="Fornecedor_Compra" fx:id="fornecedorProduto_Compra" layoutX="97.0" layoutY="354.0" prefHeight="25.0" prefWidth="389.0" />
                   <Label layoutX="97.0" layoutY="400.0" prefHeight="28.0" prefWidth="164.0" text="CNPJ Fornecedor">
                      <font>
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="FornecedorProduto1" layoutX="97.0" layoutY="428.0" prefHeight="25.0" prefWidth="389.0" />
+                  <TextField id="CNPJ_Fornecedor_Compra" fx:id="cnpjFornecedor_Compra" layoutX="97.0" layoutY="428.0" prefHeight="25.0" prefWidth="389.0" />
                   <Label layoutX="97.0" layoutY="474.0" prefHeight="28.0" prefWidth="100.0" text="Nota Fiscal">
                      <font>
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="FornecedorProduto2" layoutX="97.0" layoutY="502.0" prefHeight="25.0" prefWidth="389.0" />
+                  <TextField id="Nota_Fiscal_Compra" fx:id="notaFiscal_Compra" layoutX="97.0" layoutY="502.0" prefHeight="25.0" prefWidth="389.0" />
                   <Label layoutX="97.0" layoutY="550.0" prefHeight="28.0" prefWidth="100.0" text="Intermédio">
                      <font>
                         <Font size="19.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="FornecedorProduto3" layoutX="97.0" layoutY="578.0" prefHeight="25.0" prefWidth="389.0" />
+                  <TextField id="Intermedio_Compra" fx:id="intermedioCompra_Compra" layoutX="97.0" layoutY="578.0" prefHeight="25.0" prefWidth="389.0" />
                </children>
             </AnchorPane>
          </children>
